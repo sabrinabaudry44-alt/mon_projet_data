@@ -1,13 +1,10 @@
 ## Initialisation du projet avec uv
 
-La commande :
 .venv/
 mon_env/
 __pycache__/
 *.pyc
-```bash
-uv init uv-project
-```
+.ipynb_checkpoints/
 
 crée automatiquement la structure de base d'un projet Python.
 
