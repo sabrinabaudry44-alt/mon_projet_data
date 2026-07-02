@@ -1,0 +1,46 @@
+## Initialisation du projet avec uv
+
+La commande :
+.venv/
+mon_env/
+__pycache__/
+*.pyc
+```bash
+uv init uv-project
+```
+
+crée automatiquement la structure de base d'un projet Python.
+
+Elle génère notamment :
+
+- un dépôt Git : `.git`
+- un fichier d'exclusion Git : `.gitignore`
+- un fichier indiquant la version de Python : `.python-version`
+- un script Python prêt à l'emploi : `main.py`
+- un fichier de configuration du projet : `pyproject.toml`
+- un fichier de documentation : `README.md`
+
+Arborescence créée :
+
+```text
+uv-project/
+├── .git/
+├── .gitignore
+├── .python-version
+├── main.py
+├── pyproject.toml
+└── README.md
+```
+
+L'un des avantages de `uv` est qu'il initialise automatiquement un dépôt Git, ce qui évite d'exécuter manuellement :
+
+```bash
+git init
+```
+
+Pour un projet déjà existant, on peut simplement exécuter :
+
+```bash
+uv init
+```
+.venv/ __pycache__/ *.ipynb
